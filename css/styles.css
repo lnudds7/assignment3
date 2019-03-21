@@ -1,19 +1,35 @@
 .cis260specialbrown {
-    color: rgb(80, 141, 58)
-} 
+    color: #ef5c5c
+}
 
 
 #cisspecialparent a {
-color: #6184c6:;
-    
-    
+    color: #6184c6:;
 }
 
 
 body {
-    
-    
+
     background-color: #cccccc
 }
 
+header {
 
+    display: flex;
+    align-items: center;
+    background-color: dimgrey;
+    flex-direction: column;
+
+}
+
+
+a {
+
+    color: #050084
+}
+
+@media screen and (max-width: 40rem) {
+    header {
+        flex-direction: column
+    }
+}
