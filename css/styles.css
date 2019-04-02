@@ -1,32 +1,50 @@
-.cis260specialbrown {
-    color: #ef5c5c
-} 
-/*change color name*/
-
-#cisspecialparent a {
-    color: #6184c6:;
+html {
+    color: #ccc;
+    box-sizing: border-box;
+    margin: 0;
 }
-/*yeah change this name too*/
 
+.creamsicle {
+    color: #EFC69B
+}
 
 body {
 
-    background-color: #cccccc
+    background-color: #283845
 }
- 
+
 header {
 
     display: flex;
-    align-items: center;
-    background-color: dimgrey;
+    background-color: #ACBEA3;
     flex-direction: column;
-/*i want a column for the icon and anchors but i want the anchors in a row so figure that out pls*/
 }
 
+header ul li {
+
+    display: inline;
+    padding-right: 50px;
+   
+
+}
 
 a {
 
-    color: #d8d2d2
+    color: #40476D;
+    text-decoration: none;
+
+}
+
+a:hover {
+
+    color: #646d5f
+}
+
+
+ul {
+
+    list-style-type: none;
+
 }
 
 @media screen and (max-width: 40rem) {
