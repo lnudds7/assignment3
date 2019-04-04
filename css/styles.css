@@ -18,12 +18,24 @@ header {
     display: flex;
     background-color: #ACBEA3;
     flex-direction: column;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 650;
+
+}
+
+
+main a {
+    
+    padding-bottom: 
 }
 
 header ul li {
-
+    
+    display: flex;
     display: inline;
     padding-right: 50px;
+/*    justify-content: flex-end;*/
    
 
 }
@@ -37,7 +49,8 @@ a {
 
 a:hover {
 
-    color: #646d5f
+    color: #646d5f;
+    transition: color .3s;
 }
 
 
